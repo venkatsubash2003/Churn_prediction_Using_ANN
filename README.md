@@ -25,18 +25,14 @@ Check out the live demo of the churn prediction model here:
 
 📂 Churn_Prediction_ANN/
 ├── 📁 Models/
-   ├── model.h5                    # Trained ANN model
-   ├── label_encoder_gender.pkl     # Label encoder for gender
-   ├── one_hot_encoder_geo.pkl      # One-hot encoder for geography
-   └── scaler.pkl     # StandardScaler for feature scaling
-├── 📁 Notebooks/
-   ├── experiments.ipynb                    # Performed EDA and preprocessing.
-├── 📁 Data/
-   ├── Churn_Modelling.csv   # Dataset for training the model     
-├── 📁 logs/
-   ├── Train logs  
-   ├── Validation logs
+│   ├── model.h5                    # Trained ANN model
+│   ├── label_encoder_gender.pkl     # Label encoder for gender
+│   ├── one_hot_encoder_geo.pkl      # One-hot encoder for geography
+│   └── scaler.pkl                   # StandardScaler for feature scaling
 ├── app.py                           # Streamlit app source code
 ├── README.md                        # Project documentation
 ├── requirements.txt                 # Required Python libraries
+└── 📂 Data/
+    └── customer_data.csv            # Dataset used for training and testing
+
 

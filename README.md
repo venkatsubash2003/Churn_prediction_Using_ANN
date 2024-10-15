@@ -4,9 +4,18 @@ This project aims to predict customer churn using an **Artificial Neural Network
 
 ## 🚀 Streamlit Web Application
 
-Check out the live demo of the churn prediction model here:
+Experience the power of Churn Prediction model through our interactive web application:
+<p align="center">
+  <a href="https://amazon-alexa-sentiment-analysis-dfh55obrkh83nwut9kyfhn.streamlit.app/">
+    <img src="https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.png" width="250" alt="Streamlit Logo">
+  </a>
+</p>
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://github.com/venkatsubash2003/Churn_prediction_Using_ANN)
+<p align="center">
+  <a href="https://amazon-alexa-sentiment-analysis-dfh55obrkh83nwut9kyfhn.streamlit.app/">
+    <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App">
+  </a>
+</p>
 
 ### Key Features:
 - Real-time churn prediction based on user inputs

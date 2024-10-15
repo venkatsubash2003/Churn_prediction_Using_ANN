@@ -1,6 +1,8 @@
 # 📊 Customer Churn Prediction Using ANN 🤖
 
 This project aims to predict customer churn using an **Artificial Neural Network (ANN)**. The model classifies whether a customer is likely to churn based on their demographic and transactional details. The project includes preprocessing, model training, and deployment via **Streamlit** for an interactive user interface.
+<br/>
+<br/>
 ![Customer Churn Logo](https://daxg39y63pxwu.cloudfront.net/images/blog/churn-models/Customer_Churn_Prediction_Models_in_Machine_Learning.webp)
 
 ## 🚀 Streamlit Web Application

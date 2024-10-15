@@ -23,7 +23,24 @@ Check out the live demo of the churn prediction model here:
 
 ## 📂 Project Structure
 
-
+```
+📂 Churn_prediction_Using_ANN/
+├── 📁 Models/
+│   ├── model.h5        # The traind ANN model
+│   ├── scaler.pkl           # Scaler used for feature scaling
+│   └── label_encoder_gender.pkl  # Label Encoder 
+│   └── onehotencoder_geo.pkl # One hot Encoder
+├── 📂 Data/
+│   └── Churn_Modelling.csv
+├── 📂 Notebooks/
+│   └── experiments.ipynb
+├── 📂 logs/
+│   └── training logs
+│   └── validation logs
+├── app.py                   # Streamlit app source code
+├── README.md                # Project documentation
+└── requirements.txt         # Required Python libraries
+```
 
 
 ## 📊 Dataset

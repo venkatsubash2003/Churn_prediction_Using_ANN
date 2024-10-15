@@ -64,8 +64,8 @@ The model was trained on the customer dataset to classify whether a customer wil
 ### Running the App Locally
 
 You can run the Streamlit app locally by following these steps:
-git clone https://github.com/venkatsubash2003/Churn_prediction_Using_ANN
-cd Churn_prediction_Using_ANN
-pip install -r requirements.txt
-streamlit run main.py
+git clone https://github.com/venkatsubash2003/Churn_prediction_Using_ANN<br/>
+cd Churn_prediction_Using_ANN<br/>
+pip install -r requirements.txt<br/>
+streamlit run main.py<br/>
 

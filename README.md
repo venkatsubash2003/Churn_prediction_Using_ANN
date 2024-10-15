@@ -23,16 +23,45 @@ Check out the live demo of the churn prediction model here:
 
 ## 📂 Project Structure
 
-📂 Churn_Prediction_ANN/
-├── 📁 Models/
-│   ├── model.h5                    # Trained ANN model
-│   ├── label_encoder_gender.pkl     # Label encoder for gender
-│   ├── one_hot_encoder_geo.pkl      # One-hot encoder for geography
-│   └── scaler.pkl                   # StandardScaler for feature scaling
-├── app.py                           # Streamlit app source code
-├── README.md                        # Project documentation
-├── requirements.txt                 # Required Python libraries
-└── 📂 Data/
-    └── customer_data.csv            # Dataset used for training and testing
 
+
+
+## 📊 Dataset
+
+The dataset used for this project contains customer details, including:
+
+- 🌍 **Geography** (countries)
+- 👥 **Gender**
+- 📊 **Age**, **Balance**, **Credit Score**
+- 💰 **Estimated Salary**
+- 📅 **Tenure** (number of years as a customer)
+- 🛍️ **Number of Products**
+- 💳 **Has Credit Card** (binary flag)
+- 📈 **Is Active Member** (binary flag)
+- 🔄 **Churn** (target variable)
+
+## 🧹 Preprocessing
+
+The following steps were applied to the data before feeding it to the ANN model:
+
+1. **Label Encoding**: Categorical variables such as gender were label encoded using `LabelEncoder`.
+2. **One-Hot Encoding**: Geography was one-hot encoded using `OneHotEncoder` to avoid any ordinal relationship.
+3. **Feature Scaling**: Continuous variables like balance and credit score were scaled using `StandardScaler`.
+
+## 🤖 Modeling
+
+The project uses an **Artificial Neural Network (ANN)**, implemented in TensorFlow. Key aspects of the model:
+
+- **Architecture**: A simple feed-forward neural network with fully connected layers
+- **Activation Functions**: ReLU for hidden layers, sigmoid for the output layer (binary classification)
+- **Loss Function**: Binary Cross-Entropy
+- **Optimizer**: Adam
+
+The model was trained on the customer dataset to classify whether a customer will churn (1) or not (0).
+
+## 🚀 Usage
+
+### Running the App Locally
+
+You can run the Streamlit app locally by following these steps:
 
